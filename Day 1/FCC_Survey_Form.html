@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FCC Survey Form</title>
+        <style>
+            #comment_area{
+                height: 50px;
+                width: 200px;
+            }
+            #favorite_feature{
+                width: 350px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <form>
+                <h6 align="center">FCC: Survey Form</h6>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <label>Would you recommend freeCodeCamp to a friend?</label><br/>
+                        <input name="response1" type="radio">Definitely<br/>
+                        <input name="response1" type="radio">Maybe<br/>
+                        <input name="response1" type="radio">Not sure<br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>What would your favorite feature of freeCodeCamp?</label><br/>
+                                <select id="favorite_feature">
+                                    <option>Select an option</option>
+                                    <option>Option 1</option>
+                                </select><br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>What would you like to see improved? (Check all that apply)</label><br/>
+                            <input type="checkbox">Front-end Projects<br/>
+                            <input type="checkbox">Back-end Projects<br/>
+                            <input type="checkbox">Data Visualization<br/>
+                            <input type="checkbox">Challenges<br/>
+                            <input type="checkbox">Open Source Community<br/>
+                            <input type="checkbox">Gitter help rooms<br/>
+                            <input type="checkbox">Videos<br/>
+                            <input type="checkbox">City Meetups<br/>
+                            <input type="checkbox">Wiki<br/>
+                            <input type="checkbox">Forum<br/>
+                            <input type="checkbox">Additional Courses<br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Any comments or suggestions?</label><br>
+                            <textarea id="comment_area" placeholder="Enter your comment here..."></textarea><br/><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <input type="button" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
